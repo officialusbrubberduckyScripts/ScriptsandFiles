@@ -12,5 +12,6 @@ while ($true) {
 
 	[System.Windows.Forms.Cursor]::Position = New-Object System.Drawing.Point($x, $y)
 
-	Start-Sleep -Milliseconds 7500
+	Start-Sleep -Milliseconds 3000
+
 }
